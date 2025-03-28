@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff; /* 改變背景顏色 */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 將所有文字置中 */
+}
+
+header, section, footer {
+    background-color: rgb(123, 155, 225);
+    border: 5px solid whitesmoke; /* 添加邊框 */
+    border-radius: 10px; /* 圓角 */
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+    width: 80%; /* 調整寬度 */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    font-weight: bold; /* 加粗文字 */
+    font-style: normal; /* 移除斜體 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 添加文字陰影 */
+    display: block; /* 每行單獨顯示 */
+    padding-bottom: 5px;
+}
+
+p {
+    font-style: italic; /* 斜體文字 */
+    margin: 10px 0;
+}
+
+.community-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+    margin: 20px auto; /* 圖片置中 */
+    display: block; /* 確保圖片是區塊元素 */
+    border: 3px solid #007bff; /* 添加圖片邊框 */
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* 添加過渡效果 */
+    margin: 20px auto; /* 按鈕置中 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加陰影 */
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* 懸停時放大按鈕 */
+}
