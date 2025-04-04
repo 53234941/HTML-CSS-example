@@ -1,0 +1,24 @@
+{
+  "name": "flexible-website",
+  "version": "1.0.0",
+  "description": "A flexible website project with responsive design and dynamic content.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build process can be defined here.'"
+  },
+  "keywords": [
+    "website",
+    "flexible",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
