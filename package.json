@@ -16,7 +16,7 @@
     "javascript"
   ],
   "author": "Your Name",
-  "license": "MIT",
+  "license": "---",
   "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1"
